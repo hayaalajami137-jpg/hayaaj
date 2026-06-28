@@ -1,2 +1,50 @@
 # hayaaj
-password-strength-checker
+# 🔐 Password Strength Analyzer (Python)
+
+A simple cybersecurity-focused Python tool that evaluates password strength, calculates entropy, and provides security feedback. It also generates strong passwords and logs results for analysis.
+
+---
+
+## 🧠 Project Overview
+
+Weak passwords are one of the most common causes of security breaches.  
+This tool helps users understand how secure their passwords are by analyzing:
+
+- Length
+- Character diversity (uppercase, lowercase, digits, symbols)
+- Common password patterns
+- Repeated characters
+- Entropy (randomness measurement)
+
+It also suggests improvements and can generate a strong password when needed.
+
+---
+
+## ⚙️ Features
+
+- ✅ Password strength scoring system (0–100)
+- 🔐 Strength classification (Weak / Medium / Strong / Very Strong)
+- 📊 Entropy calculation (bits of randomness)
+- 🧪 Detection of common weak passwords
+- ⚠️ Security feedback & improvement suggestions
+- 🔁 Strong password generator
+- 📝 Logging results to `password_log.txt`
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Built-in libraries:
+  - `string`
+  - `random`
+  - `math`
+  - `datetime`
+  - `getpass`
+
+---
+
+## 🚀 How to Run
+
+```bash
+python3 password_checker.py
